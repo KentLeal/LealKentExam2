@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:background="@android:color/darker_gray"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="process"
+        android:text="Next"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="488dp" />
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="process"
+        android:text="Map"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="488dp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="316dp"
+        android:layout_height="178dp"
+        android:background="@color/cardview_light_background"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="152dp"
+        android:layout_height="37dp"
+        android:text="Tony Stark"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="291dp"
+        android:layout_height="106dp"
+        android:text="The biological parents of Tony Stark were two S.H.I.E.L.D. agents, Amanda Armstrong and Jude, who met during a courier mission. After Jude saved Amanda from an assassin, they got to know each other and fell in love.[24] Following a two-year relationship, Amanda became pregnant. A week before giving birth to the baby, Jude revealed to have been a Hydra double-agent with little regard for anybody but Amanda and himself who sold out fellow S.H.I.E.L.D. soldiers, and was even responsible for the incident that had almost cost Amanda her life. During a discussion when he was trying to convince Amanda to accept Hydra's protection, she attacked Jude and killed him."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="347dp" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="316dp"
+        android:layout_height="178dp"
+        android:background="@color/cardview_light_background"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="291dp"
+        android:layout_height="106dp"
+        android:text="Peter Benjamin Parker was born in Queens to Richard and Mary Parker.Amazing Spider-Man #600 While Peter was still an infant, his parents were assigned by the CIA to infiltrate the Algerian based spy ring controlled by the communist agent, the Red Skull. The moment the Red Skull learned that Richard and Mary were double agents, he had them killed by one of his agents, the Finisher, in an airplane crash overseas and then framed them for treason.[39] Before their deaths however, Richard and Mary had another child unknown to all others including Peter himself, a daughter and Peter's younger sister, Teresa.[40]"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="152dp"
+        android:layout_height="37dp"
+        android:text="Peter Parker"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="86dp" />
+</android.support.constraint.ConstraintLayout>
